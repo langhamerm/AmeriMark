@@ -32,8 +32,8 @@ body {
 
 .fa:hover {
     opacity: 0.7;
-    background: silver;
-    color: black;
+    background: white;
+    color: #1D809F;
 }
 
 .fa-facebook {
@@ -71,8 +71,9 @@ footer.footer .social-link {
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  color: #155d74;
   text-decoration: none;
+
 }
 
 a {
