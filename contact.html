@@ -58,12 +58,12 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                Blog & Newsletter
+                Newsletter
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                <a class="dropdown-item" href="blog-home-1.html">Blog</a>
-                <a class="dropdown-item" href="blog-home-2.html">Newsletter</a>
-                <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+                <a class="dropdown-item" href="blog-home-1.html">Newsletter Home</a>
+                <a class="dropdown-item" href="blog-home-2.html">Past Newsletters</a>
+                <!-- <a class="dropdown-item" href="blog-post.html">Blog Post</a> -->
               </div>
             </li>
             <!-- <li class="nav-item dropdown">
@@ -87,11 +87,11 @@
   <div class="container">
 
     <!-- Page Heading/Breadcrumbs -->
-    <h1 class="mt-4 mb-3">Contact<br>
+    <h1 id="page-header" class="mt-4 mb-3">Contact<br>
       <small>Mark Langhamer</small>
     </h1>
 
-    <ol class="breadcrumb">
+    <ol id="breadcrumb" class="breadcrumb bg-dark">
       <li class="breadcrumb-item">
         <a href="index.html">Home</a>
       </li>
@@ -99,7 +99,7 @@
     </ol>
 
     <!-- Content Row -->
-    <div class="row">
+    <div id="features" class="row">
       <!-- Map Column -->
       <div class="col-lg-8 mb-4">
         <!-- Embedded Google Map -->
@@ -107,7 +107,7 @@
       </div>
       <!-- Contact Details Column -->
       <div class="col-lg-4 mb-4">
-        <h3>Contact Details</h3>
+        <h3 id="page-header">Contact Details</h3>
         <p>
           <abbr title="Phone">Phone</abbr>: (708) 785-3200
         </p>
@@ -122,9 +122,9 @@
 
     <!-- Contact Form -->
     <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <div class="row">
+    <div id="features" class="row">
       <div class="col-lg-8 mb-4">
-        <h3>Send us a Message</h3>
+        <h3 id="page-header">Send us a Message</h3>
         <form name="sentMessage" id="contactForm" novalidate>
           <div class="control-group form-group">
             <div class="controls">
@@ -153,7 +153,7 @@
           </div>
           <div id="success"></div>
           <!-- For success/fail messages -->
-          <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+          <button type="submit" class="btn btn-dark" id="sendMessageButton">Send Message</button>
         </form>
       </div>
 

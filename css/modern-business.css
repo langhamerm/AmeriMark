@@ -5,6 +5,7 @@
  */
 body {
   padding-top: 56px;
+  background-color: #1D809F;
 }
 
 .carousel-item {
@@ -50,6 +51,7 @@ body {
   background: #007bb5;
   color: white;
 }
+
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -74,14 +76,59 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: white;
 }
 
 a:hover, a:focus, a:active {
-  color: #155d74;
+  color: rgb(132, 211, 235);
 }
 
 #appraisal-image {
   width:100%;
   height:100%;
+}
+
+nav, footer, #page-header {
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  color: white;
+  text-shadow: black 2px 1px;
+}
+
+#features {
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  color: white;
+  text-shadow: black 2px 1px;
+}
+
+#service-card {
+  background-color: #155d74;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  color: white;
+  text-shadow: black 2px 1px;
+}
+
+#breadcrumb {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  color: white;
+  text-shadow: black 1px 1px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: black !important;
+  text-shadow: #1D809F 2px 1px;
+}
+
+.dropdown-menu {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  color: black;
+  text-shadow: whitesmoke 1px 1px;
 }
