@@ -134,3 +134,11 @@ nav, footer, #page-header {
   color: black;
   text-shadow: whitesmoke 1px 1px;
 }
+
+#msl {
+  font-weight: bolder;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  text-shadow: black 3px 2px;
+  text-decoration: underline;
+}
