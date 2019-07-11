@@ -142,3 +142,11 @@ nav, footer, #page-header {
   text-shadow: black 3px 2px;
   text-decoration: underline;
 }
+
+#carousel-header {
+  font-weight: bolder;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  text-shadow: black 3px 2px;
+  text-decoration: underline;
+}
