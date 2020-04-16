@@ -270,3 +270,23 @@ input:focus {
 textarea:focus {
     zoom: 1.5;
 }
+
+@media screen and (max-width: 490px) {
+    .navbar-toggler {
+        margin-right: 75px;
+    }
+
+    iframe {
+        width: 400px;
+    }
+
+    #contact {
+        margin-left: 100px;
+    }
+    .img-fluid {
+        height: 30vh !important;
+    }
+    #msl {
+        margin-bottom: 25px;
+    }
+  }
