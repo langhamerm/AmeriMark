@@ -4,30 +4,34 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 body {
-  padding-top: 56px;
-  background-color: rgb(21, 105, 131);
+    padding-top: 56px;
+    background-color: rgb(21, 105, 131);
+}
+
+p {
+  text-shadow: black 2px 2px;
 }
 
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
 
 .fa:hover {
@@ -35,160 +39,224 @@ body {
     background: white;
     color: #1D809F;
     text-decoration: none;
+    
 }
 
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3B5998;
+    color: white;
 }
 
 
 .fa-google {
-  background: #dd4b39;
-  color: white;
+    background: #dd4b39;
+    color: white;
 }
 
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+    background: #007bb5;
+    color: white;
 }
 
 footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 footer.footer .social-link {
-  display: block;
-  height: 4rem;
-  width: 4rem;
-  line-height: 4.3rem;
-  font-size: 1.5rem;
-  background-color: #1D809F;
-  -webkit-transition: background-color 0.15s ease-in-out;
-  transition: background-color 0.15s ease-in-out;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(250, 250, 250, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1D809F;
+    -webkit-transition: background-color 0.15s ease-in-out;
+    transition: background-color 0.15s ease-in-out;
+    -webkit-box-shadow: 0 3px 3px 0 rgba(250, 250, 250, 0.1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  color: #155d74;
-  text-decoration: none;
-
+    color: #155d74;
+    text-decoration: none;
+    font-size: larger;
 }
 
 a {
-  color: white;
+    color: white;
 }
 
-a:hover, a:focus, a:active {
-  color: rgb(132, 211, 235);
+a:hover,
+a:focus,
+a:active {
+    color: rgb(132, 211, 235);
+    font-size: larger;
 }
 
 #appraisal-image {
-  width:100%;
-  height:100%;
+    width: 100%;
+    height: 100%;
 }
 
-nav, footer, #page-header {
-  font-weight: bolder;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  color: white;
-  text-shadow: black 2px 1px;
+nav,
+footer,
+#page-header {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    color: white;
+    text-shadow: black 2px 1px;
 }
 
 #features {
-  font-weight: bolder;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  color: white;
-  text-shadow: black 2px 1px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    color: white;
+    text-shadow: black 2px 1px;
 }
 
 #service-card {
-  background-color: #155d74;
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  color: white;
-  text-shadow: black 2px 1px;
+    background-color: #155d74;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    color: white;
+    text-shadow: black 2px 1px;
 }
 
 #breadcrumb {
-  font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  color: white;
-  text-shadow: black 1px 1px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    color: white;
+    text-shadow: black 1px 1px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: white;
+    color: white;
 }
 
 .nav-link:hover {
-  /* color: black !important; */
-  background-color: slategray;
-  text-shadow: black 2px 1px;
+    color: cyan !important;
+    background-color: gray;
+    text-shadow: black 2px 1px;
+    font-size: larger;
 }
 
 .dropdown-menu {
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    background-color: black;
+    color: white;
+    text-shadow: black 1px 1px;
+}
+
+.dropdown-item {
+  border-bottom: 1px solid black;
+  text-shadow: darkcyan 1px 1px;
+  color: white;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  color: black;
-  text-shadow: whitesmoke 1px 1px;
+}
+
+.dropdown-item:hover {
+  background-color: silver;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-weight: bolder !important;
+  font-size: larger;
 }
 
 #msl {
-  font-weight: bolder;
-  font-family: 'Russo One', sans-serif;
-  color: white;
-  text-shadow: cyan 1px 1px;
-  font-size: xx-large;
-  border: 1px solid cyan;
-  border-radius: 25px;
-  /* text-decoration: underline; */
-  text-align: center;
-  background-color: black;
-  padding: 5px 0px;
+    font-weight: bolder;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-shadow: darkcyan 2px 1px;
+    font-size: xx-large;
+    border: 1px solid cyan;
+    border-radius: 25px;
+    /* text-decoration: underline; */
+    text-align: center;
+    background-color: black;
+    padding: 5px 0;
 }
 
 #carousel-header {
-  font-weight: bolder;
-  font-family: 'Russo One', sans-serif;
-  color: white;
-  text-shadow: black 3px 2px;
-  text-decoration: underline;
+    font-weight: bolder;
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    text-shadow: black 3px 2px;
+    text-decoration: underline;
 }
 
 .img-fluid {
-  width: 700px !important;
-  height: 700px !important;
-  border-radius: 25px;
-  padding-top: 10px;
+    width: 700px !important;
+    height: 700px !important;
+    border-radius: 25px;
+    padding-top: 10px;
 }
 
 .form-control {
-  width: 100% !important;
-  height: 11em;
+    width: 100% !important;
+    height: 11em;
 }
 
 #crow {
-  padding-top: 5em;
-  padding-bottom: 5em;
+    padding-top: 5em;
+    padding-bottom: 5em;
 }
 
-input, textarea, button {
-  border: 1px solid cyan !important;
-  border-radius: 25px;
+input,
+textarea,
+button {
+    border: 1px solid cyan !important;
+    border-radius: 25px;
 }
 
 .btn {
-  border-radius: 25px;
-  height: 3em;
-  width: 7em;
+    border-radius: 25px;
+    height: 3em;
+    width: 7em;
 }
 
 .btn:hover {
-  font-size: larger;
-  font-weight: bold;
-  text-shadow: silver 1px 1px;
-  
+    font-size: larger;
+    font-weight: bold;
+    text-shadow: silver 1px 1px;
+
+}
+
+#contact {
+    text-align: center;
+    height: 3rem;
+    font-size: large;
+    text-shadow: darkslategrey 1px 1px;
+}
+
+#contact:hover {
+    border: 2px solid silver !important;
+    font-size: larger;
+}
+
+.navbar-brand:hover {
+  font-size: x-large !important;
+  font-weight: bolder;
+  text-shadow: slategray 2px 2px !important;
+}
+
+#mark {
+  font-weight: bolder;
+}
+
+.learn {
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid silver;
+}
+
+.learn:hover {
+    border: 3px solid grey;
+    text-shadow: darkslategray 2px 2px;
+    font-weight: bolder;
+}
+
+.card, .card-footer {
+    text-align: center;
+    font-weight: bold;
 }
