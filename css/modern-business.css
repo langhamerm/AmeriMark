@@ -88,6 +88,10 @@ footer.footer .social-link:hover {
     font-size: larger;
 }
 
+form {
+    text-align: center;
+}
+
 a {
     color: white;
 }
