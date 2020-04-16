@@ -12,6 +12,12 @@ p {
   text-shadow: black 2px 2px;
 }
 
+label {
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 1px black;
+}
+
 .carousel-item {
     height: 65vh;
     min-height: 300px;
