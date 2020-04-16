@@ -5,7 +5,7 @@
  */
 body {
   padding-top: 56px;
-  background-color: #1D809F;
+  background-color: rgb(21, 105, 131);
 }
 
 .carousel-item {
@@ -124,8 +124,9 @@ nav, footer, #page-header {
 }
 
 .nav-link:hover {
-  color: black !important;
-  text-shadow: #1D809F 2px 1px;
+  /* color: black !important; */
+  background-color: slategray;
+  text-shadow: black 2px 1px;
 }
 
 .dropdown-menu {
@@ -139,8 +140,14 @@ nav, footer, #page-header {
   font-weight: bolder;
   font-family: 'Russo One', sans-serif;
   color: white;
-  text-shadow: black 3px 2px;
-  text-decoration: underline;
+  text-shadow: cyan 1px 1px;
+  font-size: xx-large;
+  border: 1px solid cyan;
+  border-radius: 25px;
+  /* text-decoration: underline; */
+  text-align: center;
+  background-color: black;
+  padding: 5px 0px;
 }
 
 #carousel-header {
@@ -149,4 +156,39 @@ nav, footer, #page-header {
   color: white;
   text-shadow: black 3px 2px;
   text-decoration: underline;
+}
+
+.img-fluid {
+  width: 700px !important;
+  height: 700px !important;
+  border-radius: 25px;
+  padding-top: 10px;
+}
+
+.form-control {
+  width: 100% !important;
+  height: 11em;
+}
+
+#crow {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+input, textarea, button {
+  border: 1px solid cyan !important;
+  border-radius: 25px;
+}
+
+.btn {
+  border-radius: 25px;
+  height: 3em;
+  width: 7em;
+}
+
+.btn:hover {
+  font-size: larger;
+  font-weight: bold;
+  text-shadow: silver 1px 1px;
+  
 }
