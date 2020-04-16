@@ -189,10 +189,12 @@ footer,
 .img-fluid {
     /* width: 700px !important;
     height: 700px !important; */
-    width: 70vh !important;
-    height: 70vh !important;
+    width: 66vh !important;
+    height: 50vh !important;
     border-radius: 25px;
-    padding-top: 10px;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .form-control {
@@ -271,6 +273,7 @@ textarea:focus {
     zoom: 1.5;
 }
 
+
 @media screen and (max-width: 490px) {
     .navbar-toggler {
         margin-right: 75px;
@@ -285,6 +288,9 @@ textarea:focus {
     }
     .img-fluid {
         height: 30vh !important;
+        width: 33vh !important;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     #msl {
         margin-bottom: 25px;
