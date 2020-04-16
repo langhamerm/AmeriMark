@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 body {
-    padding-top: 56px;
+    padding-top: 9vh;
     background-color: rgb(21, 105, 131);
 }
 
@@ -28,7 +28,7 @@ p {
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 10vh;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -66,7 +66,7 @@ footer.footer {
 footer.footer .social-link {
     display: block;
     height: 4rem;
-    width: 4rem;
+    
     line-height: 4.3rem;
     font-size: 1.5rem;
     background-color: #1D809F;
@@ -105,6 +105,7 @@ footer,
     font-family: Verdana, Geneva, Tahoma, serif;
     color: white;
     text-shadow: black 2px 1px;
+    width: 100% !important;
 }
 
 #features {
@@ -186,8 +187,10 @@ footer,
 }
 
 .img-fluid {
-    width: 700px !important;
-    height: 700px !important;
+    /* width: 700px !important;
+    height: 700px !important; */
+    width: 70vh !important;
+    height: 70vh !important;
     border-radius: 25px;
     padding-top: 10px;
 }
