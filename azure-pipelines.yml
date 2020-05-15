@@ -8,6 +8,12 @@ variables:
 
   # Web app name
   webAppName: '{{ webAppName }}'
+- task: Npm@1
+  inputs:
+    command: 'install'
+    workingDir: 'root/'
+    customRegistry: 'useFeed'
+    customFeed: '7e085742-a4a7-4653-853f-e185595bc924'
   
   # Environment name
   environmentName: '{{ webAppName }}'
