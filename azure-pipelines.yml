@@ -10,11 +10,11 @@ variables:
   webAppName: '{{ webAppName }}'
 
                           
-  inputs:
-    command: 'install'
-    workingDir: 'root/'
-    customRegistry: 'useFeed'
-    customFeed: '7e085742-a4a7-4653-853f-e185595bc924'
+inputs:
+  command: 'install'
+  workingDir: 'root/'
+  customRegistry: 'useFeed'
+  customFeed: '7e085742-a4a7-4653-853f-e185595bc924'
   
   # Environment name
   environmentName: '{{ webAppName }}'
@@ -25,24 +25,22 @@ variables:
 stages:
 - stage: Build
   displayName: Build stage
-  jobs:  
+jobs:  
   - job: Build
     displayName: Build
     pool:
       vmImage: $(vmImageName)
 
 steps:
-    - task: Npm@1
+- task: Npm@1
+- task: ArchiveFiles@2
+  displayName: 'Archive files'
+  inputs:
+      rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+      includeRootFolder: false
+      archiveType: zip
+      archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+      replaceExistingArchive: true
 
-
-    - task: ArchiveFiles@2
-      displayName: 'Archive files'
-      inputs:
-        rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
-        includeRootFolder: false
-        archiveType: zip
-        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-        replaceExistingArchive: true
-
-    - upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-      artifact: drop
+- upload: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+  artifact: drop
