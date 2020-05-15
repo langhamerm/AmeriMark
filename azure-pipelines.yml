@@ -13,7 +13,7 @@ variables:
   environmentName: '{{ webAppName }}'
 
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'vs2017-win2016'
 
 stages:
 - stage: Build
