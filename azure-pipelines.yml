@@ -30,7 +30,8 @@ stages:
     displayName: Build
     pool:
       vmImage: $(vmImageName)
-  steps:
+
+steps:
     - task: Npm@1
 
 
